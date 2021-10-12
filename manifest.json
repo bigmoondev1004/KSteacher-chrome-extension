@@ -6,5 +6,8 @@
     "background": {
         "service_worker": "background.js" //백그라운드 스크립트 등록
     },
-    "permissions": ["storage"] //저장 권한 추가
+    "permissions": ["storage"], //저장 권한 추가
+    "action": {
+        "default_popup": "popup.html" //팝업 선언
+    }
 }
