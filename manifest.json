@@ -6,7 +6,8 @@
     "background": {
         "service_worker": "background.js"
     }, //백그라운드 스크립트 등록
-    "permissions": ["storage"], //저장 권한 추가
+    "permissions": ["storage", "activeTab", "scripting"],
+    //권한 추가 (저장소,현재탭(?)스크립트)
     "action": {
         "default_popup": "popup.html",
      //팝업 선언
