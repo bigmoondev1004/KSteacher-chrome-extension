@@ -3,6 +3,7 @@
     "description": "Build an Extension!",
     "version": "1.0",
     "manifest_version": 3,
+    "options_page": "options.html", //옵션 기능 추가
     "background": {
         "service_worker": "background.js"
     }, //백그라운드 스크립트 등록
