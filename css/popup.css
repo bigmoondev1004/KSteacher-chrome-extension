@@ -10,7 +10,46 @@
     font-weight: 900;
 }
 .container{
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
     width: 300px;
     height: 200px;
+}
+.container .line1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+}
+.container .line1 .kshs{
+    flex: auto;
+    background-color: hotpink;
+}
+.container .line1 .nies{
+    flex: auto;
+    background-color: orange;
+}
+.container .line1 .ebs{
+    flex: auto;
+    background-color: palegreen;
+}
+.container .line2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+}
+.container .line2 .방과후{
+    flex: auto;
+    background-color: hotpink;
+}
+.container .line2 .naver{
+    flex: auto;
+    background-color: orange;
+}
+.container .line2 .youtube{
+    flex: auto;
+    background-color: palegreen;
 }
