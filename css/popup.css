@@ -10,28 +10,31 @@
     font-weight: 900;
 }
 .container{
-    display: flex;
-    flex-direction: column;
     width: 300px;
     height: 200px;
+    background-color: paleturquoise;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 90px 90px 20px;
 }
 .container .line1{
     margin-top: 10px;
     margin-bottom: 10px;
-    flex: 1;
     background-color: yellow;
-    display: flex;
 }
 .container .line1 .kshs{
-    flex: auto;
+    grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
     background-color: hotpink;
 }
 .container .line1 .nies{
-    flex: auto;
     background-color: orange;
 }
 .container .line1 .ebs{
-    flex: auto;
     background-color: palegreen;
 }
 .container .line2{
@@ -39,17 +42,13 @@
     margin-bottom: 10px;
     flex: 1;
     background-color: yellow;
-    display: flex;
 }
 .container .line2 .방과후{
-    flex: auto;
     background-color: hotpink;
 }
 .container .line2 .naver{
-    flex: auto;
     background-color: orange;
 }
 .container .line2 .youtube{
-    flex: auto;
     background-color: palegreen;
 }
