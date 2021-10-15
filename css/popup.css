@@ -19,36 +19,21 @@
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 90px 90px 20px;
 }
-.container .line1{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: yellow;
-}
-.container .line1 .kshs{
-    grid-column-start: 1;
-	grid-column-end: 3;
-	grid-row-start: 1;
-	grid-row-end: 2;
+.container .kshs{
     background-color: hotpink;
 }
-.container .line1 .nies{
+.container .nies{
     background-color: orange;
 }
-.container .line1 .ebs{
+.container .ebs{
     background-color: palegreen;
 }
-.container .line2{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex: 1;
-    background-color: yellow;
+.container .방과후{
+    background-color: darkblue;
 }
-.container .line2 .방과후{
-    background-color: hotpink;
+.container .naver{
+    background-color: darkgoldenrod;
 }
-.container .line2 .naver{
-    background-color: orange;
-}
-.container .line2 .youtube{
-    background-color: palegreen;
+.container .youtube{
+    background-color: darkgreen;
 }
