@@ -12,28 +12,55 @@
 .container{
     width: 300px;
     height: 200px;
-    background-color: paleturquoise;
 }
+.header .logo img{
+    width: 200px;
+    height: 30px;
+}
+/* 아래부터는 바로가기 grid */
 .grid{
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 90px 90px 20px;
 }
-.container .kshs{
-    background-color: hotpink;
+.container .kshs img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80px;
+    height: 50px;
 }
-.container .nies{
-    background-color: orange;
+.container .nies img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80px;
+    height: 50px;
 }
-.container .ebs{
-    background-color: palegreen;
+.container .ebs img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80px;
+    height: 50px;
 }
-.container .방과후{
-    background-color: darkblue;
+.container .방과후 img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80px;
+    height: 50px;
 }
-.container .naver{
-    background-color: darkgoldenrod;
+.container .naver img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80px;
+    height: 50px;
 }
-.container .youtube{
-    background-color: darkgreen;
+.container .youtube img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 80px;
+    height: 50px;
+}
+.git{
+    text-align: right;
+    margin-right: 4px;
+    margin-bottom: 4px;
 }
