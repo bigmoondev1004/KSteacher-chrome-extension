@@ -22,13 +22,21 @@
     background-color: rgba(245, 245, 250, 1);
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 90px 90px 20px;
+    grid-template-rows: 70px 40px 70px 20px;
+    grid-row-start: 2;
+}
+.search{ 
+    background-color: yellow;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 4;
 }
 .button1{
 position: absolute;
 width: 90px;
 height: 40px;
-margin-top: 25px;
+margin-top: 15px;
 margin-left: 5px;
 
 background: #F5F5FA;
