@@ -23,37 +23,7 @@
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 90px 90px 20px;
 }
-.container .kshs img{
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 80px;
-    height: 50px;
-}
-.container .nies img{
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 80px;
-    height: 50px;
-}
-.container .ebs img{
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 80px;
-    height: 50px;
-}
-.container .방과후 img{
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 80px;
-    height: 50px;
-}
-.container .naver img{
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 80px;
-    height: 50px;
-}
-.container .youtube img{
+.container img{
     margin-top: 20px;
     margin-left: 10px;
     width: 80px;
