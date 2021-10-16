@@ -5,7 +5,7 @@
 }
 .container{
     width: 300px;
-    height: 200px;
+    height: 210px;
 }
 .logo{
     width: 200px;
@@ -22,15 +22,43 @@
     background-color: rgba(245, 245, 250, 1);
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 70px 40px 70px 20px;
+    grid-template-rows: 70px 50px 70px 20px;
     grid-row-start: 2;
 }
 .search{ 
-    background-color: yellow;
     grid-row-start: 2;
     grid-column-start: 1;
     grid-row-end: 3;
     grid-column-end: 4;
+    /* 그리드 */
+    width: 280px;
+    height: 42px;
+    margin-left: 10px;
+
+    background: #F5F5FA;
+    /* Inner shadow 2 */
+
+    box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(170, 170, 204, 0.25), inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #FFFFFF;
+    border-radius: 40px;
+    
+}
+.search .cicle {
+    width: 40px;
+    height: 40px;
+    right: 12px;
+    top: calc(50% - 40px/2);
+    margin-left: 230px;
+
+    background: #F5F5FA;
+    /* Shadow 2 */
+
+box-shadow: 5px 5px 10px rgba(170, 170, 204, 0.5), -5px -5px 10px #FFFFFF;
+border-radius: 32px;
+}
+.search .cicle img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
 }
 .button1{
 position: absolute;
