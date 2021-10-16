@@ -19,15 +19,39 @@
 }
 /* 아래부터는 바로가기 grid */
 .grid{
+    background-color: rgba(245, 245, 250, 1);
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 90px 90px 20px;
 }
+.button1{
+position: absolute;
+width: 90px;
+height: 40px;
+margin-top: 25px;
+margin-left: 5px;
+
+background: #F5F5FA;
+/* Shadow 3 */
+
+box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+border-radius: 32px;
+/* 텍스트효과 */
+text-decoration-color: #7878AB;
+line-height: 40px;
+text-align: center;
+/* hover active 설정 */ 
+}
 .container img{
     margin-top: 20px;
     margin-left: 10px;
-    width: 80px;
-    height: 50px;
+    width: 90px;
+    height: 70px;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
 .askmail{
     margin-left: 4px;
@@ -40,4 +64,11 @@
     text-align: right;
     margin-right: 4px;
     margin-bottom: 4px;
+}
+.button1:hover{
+    background-color: #E5E5F0;
+}
+.button1:active{
+    background-color: black;
+    color: white;
 }
