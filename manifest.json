@@ -1,7 +1,7 @@
 {
     "name": "KSHT 광성고T",
     "description": "광성고등학교 선생님들을 위한 확장프로그램",
-    "version": "1.0",
+    "version": "1.1",
     "manifest_version": 2,
     "permissions": ["storage", "activeTab"],
     "browser_action": {
