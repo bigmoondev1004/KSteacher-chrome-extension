@@ -5,7 +5,7 @@
 }
 .container{
     width: 300px;
-    height: 200px;
+    height: 210px;
 }
 .logo{
     width: 200px;
@@ -19,25 +19,92 @@
 }
 /* 아래부터는 바로가기 grid */
 .grid{
+    background-color: rgba(245, 245, 250, 1);
     display: grid;
     grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 90px 90px 20px;
+    grid-template-rows: 70px 50px 70px 20px;
+    grid-row-start: 2;
+}
+.search{ 
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 4;
+    /* 그리드 */
+    width: 280px;
+    height: 42px;
+    margin-left: 10px;
+
+    background: #F5F5FA;
+    /* Inner shadow 2 */
+
+    box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.5), inset 2px 2px 4px rgba(170, 170, 204, 0.25), inset 5px 5px 10px rgba(170, 170, 204, 0.5), inset -5px -5px 10px #FFFFFF;
+    border-radius: 40px;
+    
+}
+.search .cicle {
+    width: 40px;
+    height: 40px;
+    right: 12px;
+    top: calc(50% - 40px/2);
+    margin-left: 230px;
+
+    background: #F5F5FA;
+    /* Shadow 2 */
+
+box-shadow: 5px 5px 10px rgba(170, 170, 204, 0.5), -5px -5px 10px #FFFFFF;
+border-radius: 32px;
+}
+.search .cicle img{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.button1{
+position: absolute;
+width: 90px;
+height: 40px;
+margin-top: 15px;
+margin-left: 5px;
+
+background: #F5F5FA;
+/* Shadow 3 */
+
+box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5), 5px 5px 10px rgba(170, 170, 204, 0.25), 10px 10px 20px rgba(170, 170, 204, 0.5), -10px -10px 20px #FFFFFF;
+border-radius: 32px;
+/* 텍스트효과 */
+text-decoration-color: #7878AB;
+line-height: 40px;
+text-align: center;
+/* hover active 설정 */ 
 }
 .container img{
     margin-top: 20px;
     margin-left: 10px;
-    width: 80px;
-    height: 50px;
+    width: 90px;
+    height: 70px;
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
 }
 .askmail{
     margin-left: 4px;
     margin-bottom: 4px;
 }
-.clock{
+#clock{
     text-align: center;
 }
 .git{
     text-align: right;
     margin-right: 4px;
     margin-bottom: 4px;
+}
+.button1:hover{
+    background-color: #E5E5F0;
+}
+.button1:active{
+    background-color: black;
+    color: white;
 }

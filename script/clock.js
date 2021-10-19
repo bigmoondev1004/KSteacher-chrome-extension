@@ -12,4 +12,4 @@ weekday[5]="금";
 weekday[6]="토";
 
 var n = weekday[d.getDay()];
-document.write(nowMonth+"월 "+nowDate+"일 "+n+"요일" )
+document.getElementById("clock").innerHTML = (nowMonth+"월 "+nowDate+"일 "+n+"요일" );

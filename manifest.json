@@ -1,10 +1,11 @@
 {
     "name": "KSHT 광성고T",
     "description": "광성고등학교 선생님들을 위한 확장프로그램",
-    "version": "1.0",
-    "manifest_version": 3,
-    "permissions": ["storage", "activeTab", "scripting"],
-    "action": {
+    "version": "1.1",
+    "manifest_version": 2,
+    "permissions": ["storage", "activeTab"],
+    "content_security_policy": "script-src 'self' https://code.jquery.com/",
+    "browser_action": {
         "default_popup": "popup.html",
         "default_icon": {
         "16": "/images/get_started16.png",
@@ -13,6 +14,7 @@
         "128": "/images/get_started128.png"
         }
     },
+    
     "icons": {
     "16": "/images/get_started16.png",
     "32": "/images/get_started32.png",
